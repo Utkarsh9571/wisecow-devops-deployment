@@ -2,7 +2,7 @@ FROM ubuntu:22.04
 
 # Installing Dependencies
 RUN apt update && \
-    apt install -y fortune cowsay metcat && \
+    apt install -y fortune cowsay netcat && \
     apt clean
 
 # Copy app material
