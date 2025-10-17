@@ -1,0 +1,12 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: wisecow-selfsigned
+spec:
+  secretName: wisecow-tls
+  issuerRef:
+    name: selfsigned-issuer
+    kind: Issuer
+  commonName: wisecow.nip.io
+  dnsNames:
+    - wisecow.nip.io
