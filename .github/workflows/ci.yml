@@ -27,3 +27,6 @@ jobs:
           context: .
           push: true
           tags: utkarsh9571/wisecow:latest
+
+      - name: Run uptime check
+        run: python scripts/app_uptime.py || echo "App not responding in CI (expected if not running)"

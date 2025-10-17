@@ -2,7 +2,9 @@ FROM ubuntu:22.04
 
 # Installing Dependencies
 RUN apt update && \
-    apt install -y fortune cowsay netcat && \
+    apt install -y fortune-mod cowsay netcat && \
+    ln -s /usr/games/fortune /usr/bin/fortune && \
+    ln -s /usr/games/cowsay /usr/bin/cowsay && \
     apt clean
 
 # Copy app material
@@ -13,4 +15,5 @@ WORKDIR /app
 RUN chmod +x wisecow.sh
 
 EXPOSE 4499
-CMD [ "./wisecow.sh" ]
+CMD ["bash", "-c", "RUN_SERVER=true ./wisecow.sh"]
+
