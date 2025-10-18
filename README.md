@@ -85,3 +85,7 @@ docker run -p 8080:8080 wisecow
 ```
 
 This project demonstrates backend-first DevOps maturity, with reproducible infrastructure, secure service routing, and CI/CD automation. AWS deployment is optional and documented for future use.
+
+## 🔐 KubeArmor Policy (Optional Bonus)
+
+KubeArmor was installed via Helm and the Wisecow pod was labeled correctly. However, due to broken CRD paths and undocumented repo changes, the policy could not be applied. The bonus loop was attempted with backend clarity and security maturity, but skipped due to upstream blockers.
