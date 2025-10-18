@@ -6,10 +6,10 @@ This repository contains the full DevOps pipeline for deploying the Wisecow back
 
 ## 📁 Project Structure
 
-wisecow-devops-deployment/
-├── Dockerfile
-├── README.md
-├── .github/
+wisecow-devops-deployment/                                                                          
+├── Dockerfile                                                                                      
+├── README.md                                                                                       
+├── .github/                                                                                        
 │ └── workflows/
 │ └── ci.yml
 ├── .vscode/
