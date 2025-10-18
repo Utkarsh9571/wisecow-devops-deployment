@@ -10,25 +10,25 @@ wisecow-devops-deployment/
 ├── Dockerfile                                                                                      
 ├── README.md                                                                                       
 ├── .github/                                                                                        
-│ └── workflows/
-│ └── ci.yml
-├── .vscode/
-│ └── settings.json
-├── k8s/
-│ ├── deployment.yaml
-│ ├── service.yaml
-│ ├── ingress.yaml
-│ ├── clusterissuer.yaml
-│ ├── selfsigned-issuer.yaml
-│ ├── selfsigned-cert.yaml
-│ └── test-curl.sh
-├── scripts/
-│ ├── app_uptime.py
-│ └── health_check.py
-└── wisecow/
-├── LICENSE
-├── README.md
-└── wisecow.sh
+│ └── workflows/                                                                                                                                               
+│ └── ci.yml                                                                                                                                                     
+├── .vscode/                                                                                                                                                  
+│ └── settings.json                                                                                                                                                  
+├── k8s/                                                                                                                                                  
+│ ├── deployment.yaml                                                                                                                                                  
+│ ├── service.yaml                                                                                                                                                  
+│ ├── ingress.yaml                                                                                                                                                  
+│ ├── clusterissuer.yaml                                                                                                                                                  
+│ ├── selfsigned-issuer.yaml                                                                                                                                              
+│ ├── selfsigned-cert.yaml                                                                                                                                                  
+│ └── test-curl.sh                                                                                                                                                  
+├── scripts/                                                                                                                                                  
+│ ├── app_uptime.py                                                                                                                                                  
+│ └── health_check.py                                                                                                                                                  
+└── wisecow/                                                                                                                                                  
+├── LICENSE                                                                                                                                                  
+├── README.md                                                                                                                                                  
+└── wisecow.sh                                                                                                                                                  
 
 ---
 
